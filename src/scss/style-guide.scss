@@ -80,36 +80,46 @@ xBrand-Logo
 -------------------------------- */
 .logo-brand-div
 {
-  padding: 80px;
-  color: $color-1;
+  margin-left: 300px;
+  padding: 10px;
+  padding-top: 85px;
+  text-align: center;
+  color: $color-4;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   position: relative;
-  background-image: radial-gradient(circle farthest-side at 50% 50%, #{$color-3} 75%, 
+  background-image: url("../planet_4_blur.svg");
+  background-size: 300px;
+  background-color:red;
+  font-size: 0em;
+  
+  /*  radial-gradient(circle farthest-side at 50% 50%, #{$color-3} 75%, 
                                                                      rgba(100, 255, 100, .07) 77%, rgba(100, 255, 100, .07) 83.5%,  
                                                                      rgba(255, 100, 75, 0.55) 84%, 
                                                                      rgba(255, 200, 75, 0.55) 84.5%,
                                                                      rgba(200, 255, 75, .55) 85%, 
                                                                      rgba(100, 255, 200, .55) 85.5%, rgba(100, 255, 200, .15) 87%, rgba(100, 255, 200, .15) 89%,
-                                                                     transparent );
-  font-size: 0em;
+                                                                     transparent );*/
+  
   &::after
   {
-  font-size: 50px;
+  font-size: 45px;
   content: "Zen Garden";
   }
   &::before
   {
-    font-size: 40px;
+    font-size: 30px;
     content: "CSS";
-    color: $color-4;
+    color: $color-5;
     padding: 5px;
-    padding-top: 15px;
-    width: 75px;
-    height: 75px;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
     z-index: -1;
-    background-color: $color-1;
+    background-color: $color-3;
+    background-image: url("../moon_blur.svg");
+    background-size: 100px;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
@@ -117,12 +127,11 @@ xBrand-Logo
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    transform: translateX(-250%) translateY(30%);
+    transform: translateX(-250%) translateY(-30%);
     z-index:-1;
     
   }
 }
-
 /*******************************
   Animations
 ********************************/
