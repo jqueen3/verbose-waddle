@@ -547,15 +547,24 @@ section {
 
 /* xTypography section - basic style */
 
+
 .cd-typography {
 
   & .cd-box
   {
-    background-color: transparentize($color-2, 0.25);
+    background-color: transparentize($color-5, 0.60);
+    max-width: 500px;
+    margin-left: 100px;
+    border:none;
+    border-radius:20px;
+  }
+  & a
+  {
+    color: lighten($color-3, 40%);
   }
   p
   {
-    color: $color-5;  
+    color: $color-2;  
     position: relative;
   }
 
@@ -565,7 +574,9 @@ section {
     top: -200px;
     display: inline-block;
     position: absolute;
-    background-color: $color-2;
+    background-color: $red-planet;
+    background-image: url("../planet_4_blur.svg");
+    background-size: 500px;
     border-radius: 50%;
     width: 500px;
     height: 500px;
@@ -573,10 +584,10 @@ section {
 
 	h1
   {
-    color: $color-3;
+    color: $color-1;
     &::before {
       content: 'Aa - ';
-      color: $color-5;
+      color: $color-1;
     }
   }
 }
