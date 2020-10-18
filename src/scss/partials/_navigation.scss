@@ -1,0 +1,25 @@
+.cd-box {
+
+    h3 {
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+
+    li {
+        padding: 5px 0px;
+    }
+
+    li a {
+
+        color: #ffffff;
+        @include transition(all .2s);
+
+        &.selected {
+            color: #999;
+          }
+    
+        &:hover {
+            color: #999;
+          }
+    }
+}

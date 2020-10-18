@@ -1,0 +1,60 @@
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #999; // moon dust
+$color-2: #ddd; // moon shine
+$color-3: #050544; // deep space blue
+$color-4: #ffffff; // white
+$color-5: #000000; // black 
+
+$red-planet: red;
+
+
+/********************************************************cold moon:
+$color-1: #aaaacc; // moon dust
+$color-2: #ddddee; // moon shine
+$color-3: #050544; // deep space blue
+$color-4: #ffffff; // white
+$color-5: #000000; // black 
+********************************************************************/
+
+
+/********************************************************warm moon:
+$color-1: #bbaaaa; // moon dust
+$color-2: #ffdddd; // moon shine
+$color-3: #050544; // deep space blue
+$color-4: #ffffff; // white
+$color-5: #000000; // black 
+********************************************************************/
+
+/********************************************************Northern Lights
+
+$color-3: #BB0099; // purple
+$color-2: #EE0044; // magenta
+$color-1: #33DD77; // Green
+$color-4: #ffffff; // white
+$color-5: #000000; // black 
+*******************************************************************/
+/*******************************************************"Galaxy color set
+$color-1: #5555EE; // Cornflower Blue - Action color
+$color-2: #EE0088; // magenta
+$color-3: #AA00AA; // purple
+$color-4: #ffffff; // white
+$color-5: #000000; // black 
+******************************************************************/
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+body {
+    /* this is the page background */
+    background-color: $color-5;
+    color: $color-4;
+  }
+  
